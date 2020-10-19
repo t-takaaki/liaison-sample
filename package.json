@@ -15,6 +15,7 @@
     "@liaison/storable": "^1.0.5"
   },
   "scripts": {
-    "start": "DEBUG=liaison:* DEBUG_DEPTH=5 yarn ts-node ./src/backend.ts"
+    "serve": "DEBUG=liaison:* DEBUG_DEPTH=5 yarn ts-node ./src/backend.ts",
+    "dev": "yarn ts-node ./src/frontend.ts"
   }
 }
