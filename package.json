@@ -1,0 +1,20 @@
+{
+  "name": "liaison-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@liaison/component": "^1.0.8",
+    "@liaison/component-http-client": "^1.0.4",
+    "@liaison/component-http-server": "^1.0.4",
+    "@liaison/memory-store": "^1.0.2",
+    "@liaison/storable": "^1.0.5"
+  },
+  "scripts": {
+    "start": "DEBUG=liaison:* DEBUG_DEPTH=5 yarn ts-node ./src/backend.ts"
+  }
+}
